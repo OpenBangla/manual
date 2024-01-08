@@ -1,8 +1,8 @@
 # Finding out what you need
 ### DISCLAIMER
-*This chapter introduction is written with the intent that the user is new to the world of Linux, as such it introduces some basic concepts needed to determine what setup an user would need. If you already know what Distro (Ubuntu/Fedora etc) and DE (GNOME/KDE etc) you are using, then you can safely skip this section.*
+*This chapter introduction is written with the intent that the user is new to the world of Linux, as such it introduces some basic concepts needed to determine what setup an user would need. If you already know what Distro (Ubuntu/Fedora etc) and DE (GNOME/KDE etc) you are using, then you can safely skip [To this section](#figuring-out-the-ims-you-need).*
 
-*এই চাপ্ট্যারটির পরিচিতি অংশটি মূলত লিনাক্সের জগতে যারা একদমই নতুন তাদেরকে উদ্দেশ্য করে লেখা। ফলে, এখানে কিছু সহজাত বিষয়ের বর্ণনা রয়েছে যা পরবর্তীতে দিকনির্দেশনা অনুসরণে প্রয়োজন হবে। পাঠক যদি ইতঃপূর্বেই তার ডিস্ট্রো এবং DE সম্পর্কে জেনে থাকেন, তাহলে পাঠক এই অংশটি পরিহার করতে পারেন।*
+*এই চাপ্ট্যারটির পরিচিতি অংশটি মূলত লিনাক্সের জগতে যারা একদমই নতুন তাদেরকে উদ্দেশ্য করে লেখা। ফলে, এখানে কিছু সহজাত বিষয়ের বর্ণনা রয়েছে যা পরবর্তীতে দিকনির্দেশনা অনুসরণে প্রয়োজন হবে। পাঠক যদি ইতঃপূর্বেই তার ডিস্ট্রো এবং DE সম্পর্কে জেনে থাকেন, তাহলে পাঠক সরাসরি [এই অংশটিতে](#পরয়োজনীয়-im-চিহনিতকরন) চলে যেতে পারেন।*
 
 ## Identifying your Distro
 There are countless linux-based distros in existence. However, the vast majority of them are based on one of the four major distros listed below :
