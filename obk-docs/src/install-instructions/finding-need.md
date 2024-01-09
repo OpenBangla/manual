@@ -3,21 +3,24 @@
 *This chapter introduction is written with the intent that the user is new to the world of Linux, as such it introduces some basic concepts needed to determine what setup an user would need. If you already know what Distro (Ubuntu/Fedora etc) and DE (GNOME/KDE etc) you are using, then you can safely skip [To this section](#figuring-out-the-ims-you-need).*
 
 *এই চাপ্ট্যারটির পরিচিতি অংশটি মূলত লিনাক্সের জগতে যারা একদমই নতুন তাদেরকে উদ্দেশ্য করে লেখা। ফলে, এখানে কিছু সহজাত বিষয়ের বর্ণনা রয়েছে যা পরবর্তীতে দিকনির্দেশনা অনুসরণে প্রয়োজন হবে। পাঠক যদি ইতঃপূর্বেই তার ডিস্ট্রো এবং DE সম্পর্কে জেনে থাকেন, তাহলে পাঠক সরাসরি [এই অংশটিতে](#পরয়োজনীয়-im-চিহনিতকরন) চলে যেতে পারেন।*
+<!-- The anchor in the Bangla section is broken in Github's markdown viewer due to how Github vs. mdbook parse Bangla -->
 
 ## Identifying your Distro
 There are countless linux-based distros in existence. However, the vast majority of them are based on one of the four major distros listed below :
+
 - Debian GNU/Linux
 - Ubuntu Linux
 - Fedora Linux
 - Arch Linux
 
 Distros like Pop!_OS, Linux Mint and elementaryOS, for example, are based on Ubuntu Linux. Ubuntu Linux itself, in turn, is based on Debian Linux. Nobara Linux is a fork of Fedora Linux, Manjaro Linux is a fork of Arch Linux and EndeavourOS is based on Arch Linux.
-To continue further, you must first correctly determine what is your "base" distro, as in, what major distro your distribution is based on. Such information can easily be found on the internet. 
+To continue further, you must first correctly determine what your "base" distro is, as in, what major distro your distribution is based on. Such information can easily be found on the internet. 
 
-*There are also independent distros like Void Linux, Gentoo Linux etc. But if you are using them, then chances are you are already experienced and knowledgeable enough in linux, such that the install instructions are most likely redundant for you anyways, thus, such independent distros are considered out of scope for the install instructions section, although they still might get discussed in the Build Instructions section.*
+*There are also independent distros like Void Linux, Gentoo Linux etc. But if you are using them, then chances are you are already experienced and knowledgeable enough in operating linux-based OSes, such that the install instructions are most likely redundant for you anyways, thus, such independent distros are considered out of scope for the install instructions section, although they still might get discussed in the Build Instructions section.*
 
 ## Identifying your Desktop Environment
 There are also countless Desktop Environments (DEs) available for most linux-based distros, these are the Graphical Environments you actually interact with in your distros. The names of some widespread DEs are listed below :
+
 - GNOME (Default DE in Debian GNU/Linux, Ubuntu Linux, Fedora Linux and RHEL/CentOS)
 - KDE (Default DE in Manjaro Linux, OpenSUSE)
 - Cinnamon (Default DE in Linux Mint)
@@ -25,12 +28,12 @@ There are also countless Desktop Environments (DEs) available for most linux-bas
 - Xfce
 
 There are also some less widely used DEs which still have very strong followings :
+
 - Budgie (The DE of now-defunct Solus)
 - Pantheon (The DE of elementaryOS)
 - Deepin DE (The DE of Deepin)
 
 Note that most distros offer flavours or spins that let you use DEs other than the default one.
-\
 e.g. The Fedora KDE spin let's you use KDE on Fedora instead of GNOME.
 
 ## Figuring out the IMs you need
@@ -38,8 +41,6 @@ Most DEs prefer a specific IM, and usually ONE specific IM out of either iBus or
 
 - The point of identifying your DE is to figure out which IM you should use.
 - The point of identifying your distro is to guide you towards setting up those IMs for your specific distro.
-
-**Note that you only need to configure ONE IM to use OpenBangla Keyboard. If your DE supports multiple IMs, you are free to choose either iBus or fcitx, but pick only one.**
 
 Below is a table of various DEs and what IM they prefer.
 
@@ -53,18 +54,20 @@ Below is a table of various DEs and what IM they prefer.
 |Budgie   |         |         |
 |Deepin DE|         |         |
 
+**Note that you only need to configure ONE IM to use OpenBangla Keyboard. If your DE supports multiple IMs, you are free to choose either iBus or fcitx, but pick only one.**
 
 ## ডিস্ট্রো চি‌হ্নিতকরন
 জগতে অসংখ্য লিনাক্স-ভিত্তিক ডিস্ট্রোর অস্তিত্ব রয়েছে। তবে তাদের অধিকাংশই নিম্নলিখিত মূল বা প্রধান চারটি ডিস্ট্রোর যেকোনো একটির উপর প্রতিষ্ঠিত ঃ
+
 - Debian GNU/Linux
 - Ubuntu Linux
 - Fedora Linux
 - Arch Linux
 
-Pop!_OS, Linux Mint এবং elementaryOS হলো Ubuntu Linux-ভিত্তিক ডিস্ট্রোর কিছু উদাহরণ। আবার Ubuntu Linux-ও Debian Linux-ভিত্তিক একটি ডিস্ট্রো। একইভাবে Nobara Linux হলো Fedora Linux-ভিত্তিক এবং Manjaro Linux ও EndeavourOS হলো Arch Linux-ভিত্তিক কিছু ডিস্ট্রোর উদাহরণ।
+Pop!_OS, Linux Mint এবং elementaryOS হলো Ubuntu Linux-ভিত্তিক ডিস্ট্রোর কিছু উদাহরণ। আবার Ubuntu Linux-ও Debian GNU/Linux-ভিত্তিক একটি ডিস্ট্রো। একইভাবে Nobara Linux হলো Fedora Linux-ভিত্তিক এবং Manjaro Linux ও EndeavourOS হলো Arch Linux-ভিত্তিক কিছু ডিস্ট্রোর উদাহরণ।
 পরবর্তী চাপ্ট্যারগুলতে অগ্রসর হতে হলে, পাঠককে তার “মূল” ডিস্ট্রো, অর্থাৎ, যেই ডিস্ট্রোটির উপর তার বর্তমান ডিস্ট্রোটির ভিত্তি, তা সঠিকভাবে চি‌হ্নিত করতে হবে। এই প্রকার তথ্য খুব সহজেই ইন্টারনেট থেকে পাওয়া সম্ভব।
 
-*Void Linux, Gentoo Linux ইত্যাদির মত কিছু স্বাধীন ডিস্ট্রো রয়েছে যাদের অন্য কোন ডিস্ট্রোর উপর ভিত্তি নেই, এইসব ডিস্ট্রোর ব্যাবহারকারিরা সাধারণত আগে থেকেই লিনাক্স-বিষয়ক বিভিন্ন ক্ষেত্রে যথেষ্ট পারদর্শী, সুতরাং, পাঠক যদি এইপ্রকারের কোন স্বাধীন ডিস্ট্রোর ব্যবহারকারী হয়ে থাকেন তবে এই চাপ্ট্যারের অধিকাংশ নির্দেশনাই পাঠকের জন্য অপ্রয়োজনীয়, ফলে, এই প্রকার স্বাধীন ডিস্ট্রোগুলির আলোচনা ইন্সটল নির্দেশনা অংশে করা হবে না। তবে, এইপ্রকার ডিস্ট্রোগুলোর আলোচনা বিল্ড নির্দেশনা অংশের অন্তর্গত হতে পারে*
+*Void Linux, Gentoo Linux ইত্যাদির মত কিছু স্বাধীন ডিস্ট্রো রয়েছে যাদের অন্য কোন ডিস্ট্রোর উপর ভিত্তি নেই, এইসব ডিস্ট্রোর ব্যাবহারকারিরা সাধারণত আগে থেকেই লিনাক্সভিত্তিক বিভিন্ন অপারেটিং সিস্টেম ব্যবহারে যথেষ্ট পারদর্শী, সুতরাং, পাঠক যদি এইপ্রকারের কোন স্বাধীন ডিস্ট্রোর ব্যবহারকারী হয়ে থাকেন তবে এই চাপ্ট্যারের অধিকাংশ নির্দেশনাই পাঠকের জন্য অপ্রয়োজনীয়, ফলে, এই প্রকার স্বাধীন ডিস্ট্রোগুলির আলোচনা ইন্সটল নির্দেশনা অংশে করা হবে না। তবে, এইপ্রকার ডিস্ট্রোগুলোর আলোচনা বিল্ড নির্দেশনা অংশের অন্তর্গত হতে পারে।*
 
 ## ডেক্সটপ এনভাইরনমেন্ট চি‌হ্নিতকরন
 বিভিন্ন ডিস্ট্রোর জন্য অনেক ধরনের ডেক্সটপ এনভাইরনমেন্ট (DE) ব্যবহারযোগ্য। এগুলো হলো বিভিন্ন গ্রাফিকাল এনভাইরনমেন্ট যার মাধ্যমে একজন ব্যবহারকারী তার ডিস্ট্রোটি ব্যবহার করতে পারেন। এধরনের কিছু জনপ্রিয় DE-এর নাম হলো ঃ
@@ -90,8 +93,6 @@ Pop!_OS, Linux Mint এবং elementaryOS হলো Ubuntu Linux-ভিত্�
 - পাঠকের DE শনাক্তকরণের উদ্দেশ্য হলো পাঠকের প্রয়োজনীয় IM নির্ধারণ করা।
 - পাঠকের ডিস্ট্রো শনাক্তকরণের উদ্দেশ্য হলো পাঠকের ডিস্ট্রোর জন্য নির্ধারিত IM সেটআপ করা।
 
-**দ্রষ্টব্যঃ ওপেনবাংলা কিবোর্ড ব্যবহার করার জন্য কেমন একটি IM প্রয়োজন। যদি আপনার DE একাধিক IM ব্যবহার করতে সক্ষম হয় তবে আপনি iBus বা fcitx এর মধ্যে যেকোনো একটি IM, এবং শুধু একটিই IM, ব্যবহার করতে পারেন।**
-
 নিচে বিভিন্ন DE এবং তাদের পছন্দের IM-এর একটি ছক দেওয়া হলো।
 
 | DE      |iBus     |fcitx    |
@@ -103,3 +104,5 @@ Pop!_OS, Linux Mint এবং elementaryOS হলো Ubuntu Linux-ভিত্�
 |Xfce     |         |         |
 |Budgie   |         |         |
 |Deepin DE|         |         |
+
+**দ্রষ্টব্যঃ ওপেনবাংলা কিবোর্ড ব্যবহার করার জন্য কেবন একটি IM প্রয়োজন। যদি আপনার DE একাধিক IM ব্যবহার করতে সক্ষম হয় তবে আপনি iBus বা fcitx এর মধ্যে যেকোনো একটি IM, এবং শুধু একটিই IM, ব্যবহার করতে পারেন।**
