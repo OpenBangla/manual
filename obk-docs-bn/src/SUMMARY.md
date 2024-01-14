@@ -15,3 +15,5 @@
 - [বিল্ড নির্দেশনা](build-instructions/build-instructions.md)
     - [ম্যানুয়ালি](build-instructions/manual.md)
     - [make-pkgs ব্যবহার করে](build-instructions/make-pkgs.md)
+
+[ঋণস্বীকার](credits.md)

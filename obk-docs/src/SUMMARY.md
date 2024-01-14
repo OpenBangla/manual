@@ -15,3 +15,5 @@
 - [Build instructions](build-instructions/build-instructions.md)
     - [Manually](build-instructions/manual.md)
     - [Using make-pkgs](build-instructions/make-pkgs.md)
+
+[Credits](credits.md)
