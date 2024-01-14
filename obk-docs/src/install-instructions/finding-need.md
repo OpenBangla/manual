@@ -2,9 +2,6 @@
 ### DISCLAIMER
 *This chapter introduction is written with the intent that the user is new to the world of Linux, as such it introduces some basic concepts needed to determine what setup an user would need. If you already know what Distro (Ubuntu/Fedora etc) and DE (GNOME/KDE etc) you are using, then you can safely skip [To this section](#figuring-out-the-ims-you-need).*
 
-*এই চাপ্ট্যারটির পরিচিতি অংশটি মূলত লিনাক্সের জগতে যারা একদমই নতুন তাদেরকে উদ্দেশ্য করে লেখা। ফলে, এখানে কিছু সহজাত বিষয়ের বর্ণনা রয়েছে যা পরবর্তীতে দিকনির্দেশনা অনুসরণে প্রয়োজন হবে। পাঠক যদি ইতঃপূর্বেই তার ডিস্ট্রো এবং DE সম্পর্কে জেনে থাকেন, তাহলে পাঠক সরাসরি [এই অংশটিতে](#পরয়োজনীয়-im-চিহনিতকরন) চলে যেতে পারেন।*
-<!-- The anchor in the Bangla section is broken in Github's markdown viewer due to how Github vs. mdbook parse Bangla -->
-
 ## Identifying your Distro
 There are countless linux-based distros in existence. However, the vast majority of them are based on one of the four major distros listed below :
 
@@ -55,54 +52,3 @@ Below is a table of various DEs and what IM they prefer.
 |Deepin DE|         |         |
 
 **Note that you only need to configure ONE IM to use OpenBangla Keyboard. If your DE supports multiple IMs, you are free to choose either iBus or fcitx, but pick only one.**
-
-## ডিস্ট্রো চি‌হ্নিতকরন
-জগতে অসংখ্য লিনাক্স-ভিত্তিক ডিস্ট্রোর অস্তিত্ব রয়েছে। তবে তাদের অধিকাংশই নিম্নলিখিত মূল বা প্রধান চারটি ডিস্ট্রোর যেকোনো একটির উপর প্রতিষ্ঠিত ঃ
-
-- Debian GNU/Linux
-- Ubuntu Linux
-- Fedora Linux
-- Arch Linux
-
-Pop!_OS, Linux Mint এবং elementaryOS হলো Ubuntu Linux-ভিত্তিক ডিস্ট্রোর কিছু উদাহরণ। আবার Ubuntu Linux-ও Debian GNU/Linux-ভিত্তিক একটি ডিস্ট্রো। একইভাবে Nobara Linux হলো Fedora Linux-ভিত্তিক এবং Manjaro Linux ও EndeavourOS হলো Arch Linux-ভিত্তিক কিছু ডিস্ট্রোর উদাহরণ।
-পরবর্তী চাপ্ট্যারগুলতে অগ্রসর হতে হলে, পাঠককে তার “মূল” ডিস্ট্রো, অর্থাৎ, যেই ডিস্ট্রোটির উপর তার বর্তমান ডিস্ট্রোটির ভিত্তি, তা সঠিকভাবে চি‌হ্নিত করতে হবে। এই প্রকার তথ্য খুব সহজেই ইন্টারনেট থেকে পাওয়া সম্ভব।
-
-*Void Linux, Gentoo Linux ইত্যাদির মত কিছু স্বাধীন ডিস্ট্রো রয়েছে যাদের অন্য কোন ডিস্ট্রোর উপর ভিত্তি নেই, এইসব ডিস্ট্রোর ব্যাবহারকারিরা সাধারণত আগে থেকেই লিনাক্সভিত্তিক বিভিন্ন অপারেটিং সিস্টেম ব্যবহারে যথেষ্ট পারদর্শী, সুতরাং, পাঠক যদি এইপ্রকারের কোন স্বাধীন ডিস্ট্রোর ব্যবহারকারী হয়ে থাকেন তবে এই চাপ্ট্যারের অধিকাংশ নির্দেশনাই পাঠকের জন্য অপ্রয়োজনীয়, ফলে, এই প্রকার স্বাধীন ডিস্ট্রোগুলির আলোচনা ইন্সটল নির্দেশনা অংশে করা হবে না। তবে, এইপ্রকার ডিস্ট্রোগুলোর আলোচনা বিল্ড নির্দেশনা অংশের অন্তর্গত হতে পারে।*
-
-## ডেক্সটপ এনভাইরনমেন্ট চি‌হ্নিতকরন
-বিভিন্ন ডিস্ট্রোর জন্য অনেক ধরনের ডেক্সটপ এনভাইরনমেন্ট (DE) ব্যবহারযোগ্য। এগুলো হলো বিভিন্ন গ্রাফিকাল এনভাইরনমেন্ট যার মাধ্যমে একজন ব্যবহারকারী তার ডিস্ট্রোটি ব্যবহার করতে পারেন। এধরনের কিছু জনপ্রিয় DE-এর নাম হলো ঃ
-
-- GNOME (Debian GNU/Linux, Ubuntu Linux, Fedora Linux আর RHEL/CentOS এর ডিফল্ট DE)
-- KDE (Manjaro Linux, OpenSUSE এর ডিফল্ট DE)
-- Cinnamon (Linux Mint এর ডিফল্ট DE)
-- MATE
-- Xfce
-
-এছাড়া আরও কিছু DE আছে যেগুলো অত বহুল ব্যবহৃত না ঃ
-
-- Budgie (বর্তমানে অকেজো Solus এর DE)
-- Pantheon (elementaryOS এর DE)
-- Deepin DE (Deepin এর DE)
-
-উল্লেখ্য যে, অধিকাংশ ডিস্ট্রোরই বিভিন্ন flavour বা spins আছে যা একজন ব্যবহারকারীকে তার ডিফল্ট DE ব্যাতিত অন্যান্য DE-ও ব্যবহার করতে দেয়।
-যথাঃ Fedora KDE spin-টি একজন ব্যবহারকারীকে GNOME-এর পরিবর্তে KDE ব্যবহার করতে দেয়।
-
-## প্রয়োজনীয় IM চি‌হ্নিতকরন
-অধিকাংশ DE-ই একটি নির্দিষ্ট IM পছন্দ করে, এবং সাধারণত iBus ও fcitx এর ভেতর **শুধু** একটি IM-ই পছন্দ করে। এই ইন্সটল নির্দেশনা অংশটি কেবলমাত্র পূর্বে উল্লেখিত প্রধান চারটি ডিস্ট্রোকে নিয়ে আলোচনা করবে। একইসঙ্গে, ওপেনবাংলা কিবোর্ড কমিউনিটির পক্ষে যতগুলো DE-এর জন্য ডকুমেন্টেশন প্রস্তুত করা সম্ভব হয়েছে অতগুলো DE-কে নিয়েই এই ইন্সটল নির্দেশনা অংশটি আলোচনা করবে।
-
-- পাঠকের DE শনাক্তকরণের উদ্দেশ্য হলো পাঠকের প্রয়োজনীয় IM নির্ধারণ করা।
-- পাঠকের ডিস্ট্রো শনাক্তকরণের উদ্দেশ্য হলো পাঠকের ডিস্ট্রোর জন্য নির্ধারিত IM সেটআপ করা।
-
-নিচে বিভিন্ন DE এবং তাদের পছন্দের IM-এর একটি ছক দেওয়া হলো।
-
-| DE      |iBus     |fcitx    |
-|---------|---------|---------|
-|GNOME    | &check; | &cross; |
-|KDE      | *&check;| &check; |
-|Cinnamon | &check; | &check; |
-|MATE     |         |         |
-|Xfce     |         |         |
-|Budgie   |         |         |
-|Deepin DE|         |         |
-
-**দ্রষ্টব্যঃ ওপেনবাংলা কিবোর্ড ব্যবহার করার জন্য কেবন একটি IM প্রয়োজন। যদি আপনার DE একাধিক IM ব্যবহার করতে সক্ষম হয় তবে আপনি iBus বা fcitx এর মধ্যে যেকোনো একটি IM, এবং শুধু একটিই IM, ব্যবহার করতে পারেন।**

@@ -1,7 +1,7 @@
 # Summary
 [Overview](overview.md)
 
-- [Install instructions](install-instructions.md)
+- [Install instructions](install-instructions/install-instructions.md)
     - [Finding out what you need](install-instructions/finding-need.md)
     - [Distro-specific setup](install-instructions/distro-setup.md)
         - [Fedora Linux](install-instructions/distro-setup/fedora-linux.md)
@@ -12,6 +12,6 @@
         - [Cinnamon](install-instructions/de-setup/cinnamon.md)
         - [MATE](install-instructions/de-setup/mate.md)
         - [Deepin](install-instructions/de-setup/deepin.md)
-- [Build instructions](build-instructions.md)
+- [Build instructions](build-instructions/build-instructions.md)
     - [Manually](build-instructions/manual.md)
     - [Using make-pkgs](build-instructions/make-pkgs.md)

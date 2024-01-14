@@ -1,8 +1,4 @@
-# Install instructions
-Here you will find instructions on how to properly configure your preferred Linux-based OS distribution (or Distro for short) to install OpenBangla Keyboard. The instructions are categorized into two parts.
-- Distro-specific setup
-- Desktop Environment-specific (DE) setup
-
+# ইন্সটল নির্দেশনা
 এখানে আপনি ওপেনবাংলা কিবোর্ড ইনস্টল করার জন্য আপনার পছন্দসই লিনাক্স-ভিত্তিক অপারেটিং সিস্টেম ডিস্ট্রিবিউশনকে (অথবা সংক্ষেপে ডিস্ট্রোকে) সঠিকভাবে কনফিগার করার দিকনির্দেশনা পাবেন। দিকনির্দেশনাগুলি দুই ভাগে বিভক্ত করা হয়েছে।
 - ডিস্ট্রো-ভিত্তিক নির্দেশনা
 - ডেস্কটপ এনভাইরনমেন্ট-ভিত্তিক (DE) নির্দেশনা
