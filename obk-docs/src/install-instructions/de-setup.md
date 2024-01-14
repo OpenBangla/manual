@@ -1,1 +1,2 @@
 # Desktop Environment-specific (DE) setup
+Here you will find instructions on how to setup OpenBangla Keyboard for a variety of Desktop Environments on your preferred Linux-based OS distribution (or Distro for short).
