@@ -3,10 +3,10 @@
 
 - [ইন্সটল নির্দেশনা](install-instructions/install-instructions.md)
     - [যা যা জানা প্রয়োজন](install-instructions/finding-need.md)
-    - [ডিস্ট্রো-ভিত্তিক সেটআপ](install-instructions/distro-setup.md)
+    - [ডিস্ট্রো-ভিত্তিক সেটআপ](install-instructions/distro-setup/distro-setup.md)
         - [Fedora Linux](install-instructions/distro-setup/fedora-linux.md)
         - [Debian GNU/Linux](install-instructions/distro-setup/debian-linux.md)
-    - [ডেক্সটপ এনভাইরনমেন্ট-ভিত্তিক (DE) সেটআপ](install-instructions/de-setup.md)
+    - [ডেক্সটপ এনভাইরনমেন্ট-ভিত্তিক (DE) সেটআপ](install-instructions/de-setup/de-setup.md)
         - [GNOME](install-instructions/de-setup/gnome.md)
         - [KDE](install-instructions/de-setup/kde.md)
         - [Cinnamon](install-instructions/de-setup/cinnamon.md)
