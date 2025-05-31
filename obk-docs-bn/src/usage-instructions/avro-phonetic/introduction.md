@@ -17,4 +17,4 @@ Layout ভিত্তিক বাংলা লেখার পদ্ধতি�
 
 সংক্ষেপে অভ্র ফনেটিকের বর্ণান্তর নিচের নিয়মে হয়ে থাকে। বিস্তারিত পরের পৃষ্ঠা থেকে পড়তে থাকুন।
 
-<img src="https://i.postimg.cc/sfh6ttYb/Screenshot-20250529-113734.png" width="600px">
+<img src="./images/introduction-1.png" width="600px">

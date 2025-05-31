@@ -18,13 +18,10 @@
 
 আপনি অভ্র কিবোর্ডের টপ বার থেকে গিয়ার (সেটিংস) বাটনে ক্লিক করে সেটিংসে যান। তারপর `Auto correct entries:` এর `Update` বাটনে ক্লিক করে ডিকশনারিতে প্রবেশ করতে পারবেন।
 
-<div style="text-align: center;">
-<img src="https://i.postimg.cc/qMRZRzy6/Screenshot-20250529-124735.png" style="display: block; margin: 25px auto;">
-<img src="https://i.postimg.cc/g2LSVQMY/Screenshot-20250529-124842.png" style="display: block; margin: 25px auto;">
-</div>
+<img src="./images/auto-correct-1.png">
+
+<img src="./images/auto-correct-2.png">
 
 এভাবে অটো কারেক্ট ডিকশনারি খোলার পর নিচের মত একটি সহজবোধ্য উইন্ডো আসবে। এখান থেকে আপনি প্রয়োজনমত কোন শব্দ যোগ করতে পারবেন, পরিবর্তন করতে পারবেন, মুছে ফেলতে পারবেন অথবা আপনার ব্যাকআপ থেকে কোন অটোকারেক্ট ডিকশনারি ইম্পোর্ট করতে পারবেন।
 
-<div style="text-align: center;">
-<img src="https://i.postimg.cc/d0MW46XG/Screenshot-20250529-124926.png" style="display: block; margin: 25px auto;">
-</div>
+<img src="./images/auto-correct-3.png">
