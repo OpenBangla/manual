@@ -176,8 +176,8 @@
 <td>চ্ছ</td>
 <td>cch</td>
 <td></td>
-<td></td>
-<td>Dr</td>
+<td>ট্র</td>
+<td>Tr</td>
 </tr>
 <tr>
 <td>চ্ছ্ব</td>
